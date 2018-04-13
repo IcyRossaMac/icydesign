@@ -195,7 +195,7 @@ $(function () {
 
         $("html, body").animate({
             scrollTop: $(section_id).offset().top - 64
-        }, 1250, "easeInOutExpo");
+        }, 1000, "easeInOutExpo");
     })
 });
 
