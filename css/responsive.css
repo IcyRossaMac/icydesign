@@ -8,7 +8,7 @@
 
 #mobile-nav-open-btn {
     font-size: 30px;
-    color: #F4C613;
+    color: #E85356;
     cursor: pointer;
     z-index: 2;
     position: absolute;
@@ -36,7 +36,7 @@
 #mobile-nav-close-btn {
     font-family: "Raleway", sans-serif;
     font-size: 70px;
-    color: #212226;
+    color: #494949;
     font-weight: 400;
     cursor: pointer;
     position: absolute;
@@ -61,7 +61,7 @@
 #mobile-nav a {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    color: #212226;
+    color: #494949;
     font-weight: 400;
     text-transform: uppercase;
     display: inline;
@@ -87,490 +87,490 @@
         Bootstrap Media Queries
 ===================================== */
 
-/*!* Large Devices (Desktops & Laptops *!*/
-
-/*@media (min-width: 1200px) and (max-width: 1299px) {*/
-/*!* Navigation *!*/
-/*.site-nav-wrapper {*/
-/*padding: 0 20px;*/
-/*}*/
-/*}*/
-
-/*!* Medium Devices (Landscape Tablets & Medium Desktops *!*/
-
-/*@media (min-width: 992px) and (max-width: 1199px) {*/
-/*!* Navigation *!*/
-/*.site-nav-wrapper {*/
-/*padding: 0;*/
-/*}*/
-
-/*!* Generic *!*/
-/*.vertical-heading h2 {*/
-/*font-size: 29px;*/
-/*}*/
-
-/*!* Team *!*/
-/*.team-member-info {*/
-/*padding: 60px 0;*/
-/*}*/
-
-/*!* Services 2 *!*/
-/*#services-tabs .tab-bg {*/
-/*padding: 16px 30px;*/
-/*min-height: 300px;*/
-/*}*/
-
-/*.service-tab p {*/
-/*line-height: 20px;*/
-/*}*/
-/*}*/
-
-/*!* Small Devices (Portrait Tablets & Small Desktops *!*/
-
-/*@media (min-width: 768px) and (max-width: 991px) {*/
-/*!* Navigation *!*/
-/*.site-nav-wrapper {*/
-/*padding: 0;*/
-/*}*/
-
-/*!* Home *!*/
-/*#home-heading h1 {*/
-/*font-size: 41px;*/
-/*}*/
-
-/*#home-text p {*/
-/*font-size: 13px;*/
-/*}*/
-
-/*!* Generic *!*/
-/*.vertical-heading h2 {*/
-/*font-size: 29px;*/
-/*}*/
-
-/*.btn-general {*/
-/*padding: 8px 35px;*/
-/*font-size: 10px;*/
-/*}*/
-
-/*!* Statement *!*/
-/*#tech-statement h3 {*/
-/*font-size: 20px;*/
-/*line-height: 30px;*/
-/*}*/
-
-/*!* Team *!*/
-/*.team-member-info {*/
-/*padding: 40px 0;*/
-/*}*/
-
-/*.team-member-info h6 {*/
-/*font-size: 14px;*/
-/*}*/
-
-/*.team-member-info p {*/
-/*font-size: 10px;*/
-/*}*/
-
-/*!* Social Icon List *!*/
-/*ul.social-list {*/
-/*margin-top: 0;*/
-/*}*/
-
-/*ul.social-list li a {*/
-/*width: 30px;*/
-/*height: 30px;*/
-/*line-height: 30px;*/
-/*}*/
-
-/*!* Services 2 *!*/
-/*.r-tabs-accordion-title {*/
-/*text-align: center;*/
-/*margin-bottom: 10px;*/
-/*}*/
-
-/*.r-tabs-accordion-title a {*/
-/*font-family: "Raleway", sans-serif;*/
-/*font-size: 13px;*/
-/*color: #212226;*/
-/*text-transform: uppercase;*/
-/*font-weight: 400;*/
-/*padding: 0;*/
-/*text-decoration: none;*/
-/*}*/
-
-/*!* Tab Active State *!*/
-/*.r-tabs-accordion-title.r-tabs-state-active a {*/
-/*color: #F4C613;*/
-/*font-weight: 700;*/
-/*border-bottom: 3px solid #F4C613;*/
-/*padding-bottom: 5px;*/
-/*-webkit-transition: border-color 300ms linear;*/
-/*transition: border-color 300ms linear;*/
-/*}*/
-
-/*!* Pricing *!*/
-/*.pricing-table .price h2 {*/
-/*margin: 0 0 0 6px;*/
-/*font-size: 35px;*/
-/*}*/
-
-/*!* Stats *!*/
-/*.stats-item p {*/
-/*line-height: 18px;*/
-/*}*/
-
-/*!* Blog Post *!*/
-/*.blog-post .post-meta p {*/
-/*line-height: 14px;*/
-/*}*/
-/*}*/
-
-/*!* Extra Small Devices (Landscape/Portrait tablets) *!*/
-
-/*@media (max-width: 767px) {*/
-
-/*!* Navigation *!*/
-/*.navbar {*/
-/*padding: 20px 0;*/
-/*}*/
-
-/*.site-nav-wrapper,*/
-/*.white-nav-top {*/
-/*padding: 0;*/
-/*}*/
-
-/*!* Show the mobile menu open btn*!*/
-/*#mobile-nav-open-btn {*/
-/*display: block;*/
-/*}*/
-
-/*!* Home *!*/
-/*#home-heading h1 {*/
-/*font-size: 22px;*/
-/*}*/
-
-/*#home-text p {*/
-/*font-size: 13px;*/
-/*line-height: 18px;*/
-/*margin: 8px 2px 30px 2px;*/
-/*}*/
-
-/*!* Generic *!*/
-/*.btn-general {*/
-/*padding: 8px 25px;*/
-/*font-size: 10px;*/
-/*}*/
-
-/*.content-box-lg {*/
-/*padding: 90px 0;*/
-/*}*/
-
-/*.content-box-md {*/
-/*padding: 80px 0;*/
-/*}*/
-
-/*.vertical-heading {*/
-/*text-align: center;*/
-/*}*/
-
-/*.vertical-heading h5 {*/
-/*-webkit-transform: rotate(0deg);*/
-/*transform: rotate(0deg);*/
-/*display: block;*/
-/*position: static;*/
-/*margin-bottom: 15px;*/
-/*}*/
-
-/*.vertical-heading h2 {*/
-/*font-size: 29px;*/
-/*line-height: normal;*/
-/*margin: 0;*/
-/*}*/
-
-/*.horizontal-heading {*/
-/*margin-bottom: 40px;*/
-/*}*/
-
-/*.horizontal-heading h2 {*/
-/*font-size: 30px;*/
-/*}*/
-
-/*!* About 1 *!*/
-/*#about-left {*/
-/*margin-bottom: 50px;*/
-/*}*/
-
-/*#about-right {*/
-/*text-align: center;*/
-/*}*/
-
-/*!* About 2 *!*/
-/*.about-item {*/
-/*padding: 55px 30px;*/
-/*margin-bottom: 35px;*/
-/*}*/
-
-/*.about-item i {*/
-/*font-size: 30px;*/
-/*}*/
-
-/*.about-item h3 {*/
-/*font-size: 18px;*/
-/*}*/
-
-/*!* Team *!*/
-/*#team-left .vertical-heading {*/
-/*min-height: 130px;*/
-/*}*/
-
-/*.skill h4 {*/
-/*font-size: 14px;*/
-/*line-height: 35px;*/
-/*}*/
-
-/*.team-member-info {*/
-/*padding: 110px 0;*/
-/*}*/
-
-/*.team-member-info h6 {*/
-/*font-size: 18px;*/
-/*}*/
-
-/*.team-member-info p {*/
-/*font-size: 14px;*/
-/*}*/
-
-/*ul.social-list li a {*/
-/*width: 40px;*/
-/*height: 40px;*/
-/*line-height: 40px;*/
-/*margin: 5px 5px;*/
-/*}*/
-
-/*!* Statement *!*/
-/*#tech-statement h3 {*/
-/*font-size: 20px;*/
-/*line-height: 30px;*/
-/*}*/
-
-/*!* Services 1 *!*/
-/*#service-1 img {*/
-/*margin: 35px 0;*/
-/*}*/
-
-/*.service,*/
-/*.service .icon {*/
-/*text-align: center;*/
-/*}*/
-
-/*.service h4 {*/
-/*font-size: 18px;*/
-/*}*/
-
-/*!* Services 2 *!*/
-/*.r-tabs-accordion-title {*/
-/*text-align: center;*/
-/*margin-bottom: 10px;*/
-/*}*/
-
-/*.r-tabs-accordion-title a {*/
-/*font-family: "Raleway", sans-serif;*/
-/*font-size: 13px;*/
-/*color: #212226;*/
-/*text-transform: uppercase;*/
-/*font-weight: 400;*/
-/*padding: 0;*/
-/*text-decoration: none;*/
-/*}*/
-
-/*!* Tab Active State *!*/
-/*.r-tabs-accordion-title.r-tabs-state-active a {*/
-/*color: #F4C613;*/
-/*font-weight: 700;*/
-/*border-bottom: 3px solid #F4C613;*/
-/*padding-bottom: 5px;*/
-/*-webkit-transition: border-color 300ms linear;*/
-/*transition: border-color 300ms linear;*/
-/*}*/
-
-/*#services-tabs .tab-bg {*/
-/*text-align: center;*/
-/*padding: 40px 30px;*/
-/*}*/
-
-/*#services-tabs h2 {*/
-/*font-size: 40px;*/
-/*}*/
-
-/*#services-tabs h3 {*/
-/*font-size: 28px;*/
-/*}*/
-
-/*!* Portfolio *!*/
-/*#portfolio {*/
-/*padding-bottom: 0;*/
-/*}*/
-
-/*#isotope-filters button {*/
-/*padding-right: 15px;*/
-/*}*/
-
-/*!* Testimonials *!*/
-/*#testimonials {*/
-/*padding-top: 45px;*/
-/*}*/
-
-/*#testimonial-slider {*/
-/*top: 0;*/
-/*}*/
-
-/*#testimonials .vertical-heading {*/
-/*padding: 0;*/
-/*}*/
-
-/*.testimonial h3 {*/
-/*font-size: 20px;*/
-/*}*/
-
-/*.testimonial .row {*/
-/*margin: 0;*/
-/*}*/
-
-/*.testimonial .stars {*/
-/*font-size: 16px;*/
-/*}*/
-
-/*.author img {*/
-/*width: 80px !important;*/
-/*}*/
-
-/*!* Pricing *!*/
-/*.pricing-table {*/
-/*margin-bottom: 30px;*/
-/*}*/
-
-/*.pricing-table .price h2 {*/
-/*font-size: 28px;*/
-/*margin: 0 0 0 16px;*/
-/*}*/
-
-/*!* Stats *!*/
-/*.stats-item {*/
-/*margin-bottom: 20px;*/
-/*padding: 25px 5px;*/
-/*}*/
-
-/*.stats-item i {*/
-/*font-size: 30px;*/
-/*}*/
-
-/*.stats-item h3 {*/
-/*font-size: 24px;*/
-/*}*/
-
-/*!* Blog *!*/
-/*#blog-left {*/
-/*text-align: center;*/
-/*margin-bottom: 30px;*/
-/*}*/
-
-/*.blog-post {*/
-/*margin-bottom: 25px;*/
-/*}*/
-
-/*!* Contact *!*/
-/*#contact-left {*/
-/*text-align: center;*/
-/*}*/
-
-/*.office {*/
-/*margin-bottom: 50px;*/
-/*}*/
-
-/*ul.office-details li {*/
-/*display: block;*/
-/*margin-top: 25px;*/
-/*}*/
-
-/*ul.office-details li i {*/
-/*width: auto;*/
-/*display: block;*/
-/*margin-bottom: 3px;*/
-/*}*/
-
-/*ul.social-list {*/
-/*margin-bottom: 40px;*/
-/*}*/
-
-/*!* Map *!*/
-/*#map {*/
-/*height: 500px;*/
-/*}*/
-/*}*/
-
-/*!* Extra Small Devices (Portrait Phones & Smaller Devices) *!*/
-
-/*@media (max-width: 480px) {*/
-
-/*!* Home *!*/
-/*#home-heading h1 {*/
-/*font-size: 18px;*/
-/*}*/
-
-/*#home-text p {*/
-/*font-size: 11px;*/
-/*line-height: 16px;*/
-/*margin: 8px 10px 25px 10px;*/
-/*}*/
-
-/*!* Generic *!*/
-/*.vertical-heading h2 {*/
-/*font-size: 22px;*/
-/*}*/
-
-/*!* Portfolio *!*/
-/*#isotope-filters {*/
-/*text-align: center;*/
-/*}*/
-
-/*#isotope-filters button {*/
-/*font-size: 10px;*/
-/*padding-right: 14px;*/
-/*}*/
-
-/*!* Testimonials *!*/
-/*.testimonial h3 {*/
-/*font-size: 14px;*/
-/*line-height: 18px;*/
-/*}*/
-
-/*.testimonial .stars {*/
-/*font-size: 13px;*/
-/*}*/
-
-/*!* Map *!*/
-/*#map {*/
-/*height: 400px;*/
-/*}*/
-/*}*/
-
-/*!* Extra Small Devices (iPhone 5 or smaller) *!*/
-
-/*@media (max-width: 320px) {*/
-
-/*!* Testimonials *!*/
-/*.testimonial h3 {*/
-/*font-size: 12px;*/
-/*line-height: 16px;*/
-/*}*/
-
-/*.testimonial .stars {*/
-/*font-size: 10px;*/
-/*}*/
-
-/*!* Map *!*/
-/*#map {*/
-/*height: 300px;*/
-/*}*/
-/*}*/
+/* Large Devices (Desktops & Laptops */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+/* Navigation */
+.site-nav-wrapper {
+padding: 0 20px;
+}
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    /* Team */
+    .team-member-info {
+        padding: 60px 0;
+    }
+
+    /* Services 2 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+
+    .service-tab p {
+        line-height: 20px;
+    }
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
+    }
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 41px;
+    }
+
+    #home-text p {
+        font-size: 13px;
+    }
+
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    .btn-general {
+        padding: 8px 35px;
+        font-size: 10px;
+    }
+
+    /* Statement */
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* Team */
+    .team-member-info {
+        padding: 40px 0;
+    }
+
+    .team-member-info h6 {
+        font-size: 14px;
+    }
+
+    .team-member-info p {
+        font-size: 10px;
+    }
+
+    /* Social Icon List */
+    ul.social-list {
+        margin-top: 0;
+    }
+
+    ul.social-list li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    /* Services 2 */
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #494949;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /* Tab Active State */
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #F4C613;
+        font-weight: 700;
+        border-bottom: 3px solid #F4C613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+
+    /* Pricing */
+    .pricing-table .price h2 {
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
+
+    /* Stats */
+    .stats-item p {
+        line-height: 18px;
+    }
+
+    /* Blog Post */
+    .blog-post .post-meta p {
+        line-height: 14px;
+    }
+}
+
+/* Extra Small Devices (Landscape/Portrait tablets) */
+
+@media (max-width: 767px) {
+
+    /* Navigation */
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .site-nav-wrapper,
+    .white-nav-top {
+        padding: 0;
+    }
+
+    /* Show the mobile menu open btn*/
+    #mobile-nav-open-btn {
+        display: block;
+    }
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 22px;
+    }
+
+    #home-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+
+    /* Generic */
+    .btn-general {
+        padding: 8px 25px;
+        font-size: 10px;
+    }
+
+    .content-box-lg {
+        padding: 90px 0;
+    }
+
+    .content-box-md {
+        padding: 80px 0;
+    }
+
+    .vertical-heading {
+        text-align: center;
+    }
+
+    .vertical-heading h5 {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .vertical-heading h2 {
+        font-size: 29px;
+        line-height: normal;
+        margin: 0;
+    }
+
+    .horizontal-heading {
+        margin-bottom: 40px;
+    }
+
+    .horizontal-heading h2 {
+        font-size: 30px;
+    }
+
+    /* About 1 */
+    #about-left {
+        margin-bottom: 50px;
+    }
+
+    #about-right {
+        text-align: center;
+    }
+
+    /* About 2 */
+    .about-item {
+        padding: 55px 30px;
+        margin-bottom: 35px;
+    }
+
+    .about-item i {
+        font-size: 30px;
+    }
+
+    .about-item h3 {
+        font-size: 18px;
+    }
+
+    /* Team */
+    #team-left .vertical-heading {
+        min-height: 130px;
+    }
+
+    .skill h4 {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    .team-member-info {
+        padding: 110px 0;
+    }
+
+    .team-member-info h6 {
+        font-size: 18px;
+    }
+
+    .team-member-info p {
+        font-size: 14px;
+    }
+
+    ul.social-list li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: 5px 5px;
+    }
+
+    /* Statement */
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* Services 1 */
+    #service-1 img {
+        margin: 35px 0;
+    }
+
+    .service,
+    .service .icon {
+        text-align: center;
+    }
+
+    .service h4 {
+        font-size: 18px;
+    }
+
+    /* Services 2 */
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a {
+        font-family: "Raleway", sans-serif;
+        font-size: 13px;
+        color: #494949;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /* Tab Active State */
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #F4C613;
+        font-weight: 700;
+        border-bottom: 3px solid #F4C613;
+        padding-bottom: 5px;
+        -webkit-transition: border-color 300ms linear;
+        transition: border-color 300ms linear;
+    }
+
+    #services-tabs .tab-bg {
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    #services-tabs h2 {
+        font-size: 40px;
+    }
+
+    #services-tabs h3 {
+        font-size: 28px;
+    }
+
+    /* Portfolio */
+    #portfolio {
+        padding-bottom: 0;
+    }
+
+    #isotope-filters button {
+        padding-right: 15px;
+    }
+
+    /* Testimonials */
+    #testimonials {
+        padding-top: 45px;
+    }
+
+    #testimonial-slider {
+        top: 0;
+    }
+
+    #testimonials .vertical-heading {
+        padding: 0;
+    }
+
+    .testimonial h3 {
+        font-size: 20px;
+    }
+
+    .testimonial .row {
+        margin: 0;
+    }
+
+    .testimonial .stars {
+        font-size: 16px;
+    }
+
+    .author img {
+        width: 80px !important;
+    }
+
+    /* Pricing */
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+
+    .pricing-table .price h2 {
+        font-size: 28px;
+        margin: 0 0 0 16px;
+    }
+
+    /* Stats */
+    .stats-item {
+        margin-bottom: 20px;
+        padding: 25px 5px;
+    }
+
+    .stats-item i {
+        font-size: 30px;
+    }
+
+    .stats-item h3 {
+        font-size: 24px;
+    }
+
+    /* Blog */
+    #blog-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .blog-post {
+        margin-bottom: 25px;
+    }
+
+    /* Contact */
+    #contact-left {
+        text-align: center;
+    }
+
+    .office {
+        margin-bottom: 50px;
+    }
+
+    ul.office-details li {
+        display: block;
+        margin-top: 25px;
+    }
+
+    ul.office-details li i {
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
+    }
+
+    ul.social-list {
+        margin-bottom: 40px;
+    }
+
+    /* Map */
+    #map {
+        height: 500px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 22px;
+    }
+
+    /* Portfolio */
+    #isotope-filters {
+        text-align: center;
+    }
+
+    #isotope-filters button {
+        font-size: 10px;
+        padding-right: 14px;
+    }
+
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .testimonial .stars {
+        font-size: 13px;
+    }
+
+    /* Map */
+    #map {
+        height: 400px;
+    }
+}
+
+/* Extra Small Devices (iPhone 5 or smaller) */
+
+@media (max-width: 320px) {
+
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .testimonial .stars {
+        font-size: 10px;
+    }
+
+    /* Map */
+    #map {
+        height: 300px;
+    }
+}
 

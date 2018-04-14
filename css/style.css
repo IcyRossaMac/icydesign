@@ -20,16 +20,19 @@ html, body {
 }
 
 body {
-    font-size: 16px;
-    line-height: 22px;
-    height: auto;
-    font-family: 'Raleway', sans-serif;
-    background-color: #EEEFE5;
     color: #494949;
+    font-family: 'Raleway', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 section {
@@ -99,46 +102,25 @@ section {
 }
 
 ul.navbar-nav > li > a {
-    margin: 0 10px;
-    text-align: center;
-    -webkit-transition: .5s all ease-out;
-    -moz-transition: .5s all ease-out;
-    transition: .5s all ease-out;
+    font-family: "Raleway", sans-serif;
     color: #FFFFFF;
-    padding: 2px 5px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    text-transform: uppercase;
+    font-size: 13px;
     font-weight: 400;
-    letter-spacing: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
-    color: #494949;
-    text-decoration: none;
-    font-weight: 500;
-    background-color: #FFFFFF;
-    padding: 2px 5px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-
-ul.navbar-nav li.active a {
-    color: #494949;
-    text-decoration: none;
-    font-weight: 500;
-    background-color: #FFFFFF;
-    padding: 2px 5px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    background: none;
+    color: #E85356;
 }
 
 /* White Navigation */
 
 .white-nav-top {
     background: #FFFFFF;
-    margin-bottom: 0;
+    padding: 10px 0;
     -webkit-box-shadow: 0 8px 6px -9px #999;
     box-shadow: 0 8px 6px -9px #999;
     z-index: 2;
@@ -150,26 +132,16 @@ ul.navbar-nav li.active a {
 
 .white-nav-top ul.navbar-nav > li > a:hover,
 .white-nav-top ul.navbar-nav > li > a:focus {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-weight: 500;
-    background-color: #494949;
-    padding: 2px 5px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    color: #E85356;
 }
 
 /* Scroll Spy */
 
 .white-nav-top ul.navbar-nav > li.active > a {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #E85356;
     font-weight: 500;
-    background-color: #494949;
-    padding: 2px 5px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
 }
+
 
 /* =====================================
                 Home
