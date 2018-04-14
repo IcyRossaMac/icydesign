@@ -140,29 +140,29 @@ $(function () {
 
 /* Google Map */
 
-$(window).on('load', function () {
-    var addressString = "230 Broadway, New York, NY, USA";
-    var myLatLng = {lat: 40.712742, lng: -74.005969};
-
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: myLatLng
-    });
-
-    var marker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        title: 'Click To See Address'
-    });
-
-    var infowindow = new google.maps.InfoWindow({
-        content: addressString
-    });
-
-    marker.addListener('click', function () {
-        infowindow.open(map, marker);
-    });
-});
+// $(window).on('load', function () {
+//     var addressString = "230 Broadway, New York, NY, USA";
+//     var myLatLng = {lat: 40.712742, lng: -74.005969};
+//
+//     var map = new google.maps.Map(document.getElementById('map'), {
+//         zoom: 15,
+//         center: myLatLng
+//     });
+//
+//     var marker = new google.maps.Marker({
+//         position: myLatLng,
+//         map: map,
+//         title: 'Click To See Address'
+//     });
+//
+//     var infowindow = new google.maps.InfoWindow({
+//         content: addressString
+//     });
+//
+//     marker.addListener('click', function () {
+//         infowindow.open(map, marker);
+//     });
+// });
 
 /* Navigation */
 
@@ -176,12 +176,12 @@ $(function () {
     function showHideNav() {
         if ($(window).scrollTop() > 50) {
             $("nav").addClass("white-nav-top");
-            $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+            $(".navbar-brand").hide();
             $("#mobile-nav-close-btn").css("top", "-29px");
             $("#back-to-top").fadeIn();
         } else {
-            $("nav").removeClass("white-nav-top");
-            $(".navbar-brand img").attr("src", "img/logo/logo.png");
+            $("nav").removeClass("white-nav-top")
+            $(".navbar-brand").show();
             $("#mobile-nav-close-btn").css("top", "-9px");
             $("#back-to-top").fadeOut();
         }

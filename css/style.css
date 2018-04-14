@@ -98,7 +98,12 @@ section {
 }
 
 .navbar-brand {
-    padding: 13px 15px;
+    padding: 0 20px;
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: 100px;
 }
 
 ul.navbar-nav > li > a {
@@ -188,7 +193,6 @@ ul.navbar-nav > li > a:focus {
     margin-top: -64px;
     margin-left: -64px;
 }
-
 
 /* =====================================
                 Home

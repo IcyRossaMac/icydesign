@@ -90,10 +90,10 @@
 /* Large Devices (Desktops & Laptops */
 
 @media (min-width: 1200px) and (max-width: 1299px) {
-/* Navigation */
-.site-nav-wrapper {
-padding: 0 20px;
-}
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
 }
 
 /* Medium Devices (Landscape Tablets & Medium Desktops */
