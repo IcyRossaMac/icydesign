@@ -158,13 +158,13 @@ ul.navbar-nav > li > a:focus {
 
 #status {
     background: url("../img/preloader/preloader.gif") no-repeat;
-    width: 70px;
-    height: 70px;
+    width: 128px;
+    height: 128px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-top: -35px;
-    margin-left: -35px;
+    margin-top: -64px;
+    margin-left: -64px;
 }
 
 
