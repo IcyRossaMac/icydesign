@@ -177,10 +177,12 @@ $(function () {
         if ($(window).scrollTop() > 50) {
             $("nav").addClass("white-nav-top");
             $(".navbar-brand img").attr("src", "img/logo/logo-dark.png");
+            $("#mobile-nav-close-btn").css("top", "-29px");
             $("#back-to-top").fadeIn();
         } else {
             $("nav").removeClass("white-nav-top");
             $(".navbar-brand img").attr("src", "img/logo/logo.png");
+            $("#mobile-nav-close-btn").css("top", "-9px");
             $("#back-to-top").fadeOut();
         }
     }
