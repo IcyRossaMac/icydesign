@@ -73,13 +73,13 @@
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-    color: #F4C613;
+    color: #E85356;
     background: none;
 }
 
 /* Mobile Nav Scroll Spy Active State */
 .white-nav-top #mobile-nav ul.nav > li.active > a {
-    color: #F4C613;
+    color: #E85356;
     font-weight: 500;
 }
 
