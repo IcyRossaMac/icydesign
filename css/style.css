@@ -142,6 +142,31 @@ ul.navbar-nav > li > a:focus {
     font-weight: 500;
 }
 
+/* =====================================
+              Preloader
+===================================== */
+
+#preloader {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#status {
+    background: url("../img/preloader/preloader.gif") no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
 
 /* =====================================
                 Home
