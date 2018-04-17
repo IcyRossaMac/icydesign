@@ -354,56 +354,17 @@
     }
 
     /* Services 1 */
-    #service-1 img {
-        margin: 35px 0;
+    .service {
+        padding: 55px 30px;
+        margin-bottom: 35px;
     }
 
-    .service,
-    .service .icon {
-        text-align: center;
+    .service i {
+        font-size: 30px;
     }
 
-    .service h4 {
+    .service h3 {
         font-size: 18px;
-    }
-
-    /* Services 2 */
-    .r-tabs-accordion-title {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    .r-tabs-accordion-title a {
-        font-family: "Raleway", sans-serif;
-        font-size: 13px;
-        color: #494949;
-        text-transform: uppercase;
-        font-weight: 400;
-        padding: 0;
-        text-decoration: none;
-    }
-
-    /* Tab Active State */
-    .r-tabs-accordion-title.r-tabs-state-active a {
-        color: #F4C613;
-        font-weight: 700;
-        border-bottom: 3px solid #F4C613;
-        padding-bottom: 5px;
-        -webkit-transition: border-color 300ms linear;
-        transition: border-color 300ms linear;
-    }
-
-    #services-tabs .tab-bg {
-        text-align: center;
-        padding: 40px 30px;
-    }
-
-    #services-tabs h2 {
-        font-size: 40px;
-    }
-
-    #services-tabs h3 {
-        font-size: 28px;
     }
 
     /* Portfolio */
