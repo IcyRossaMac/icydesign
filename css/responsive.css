@@ -134,6 +134,10 @@
     }
 
     /* Home */
+    #home {
+        background-attachment: scroll;
+    }
+
     #home-heading h1 {
         font-size: 41px;
     }
@@ -153,6 +157,10 @@
     }
 
     /* Statement */
+    #statement {
+        background-attachment: scroll;
+    }
+
     #tech-statement h3 {
         font-size: 20px;
         line-height: 30px;
